@@ -9,7 +9,7 @@ If your App's original or main language is in a different language other than En
 just use the **--set-orig-lang** option, to update it.
 
 ### ORIGINAL LANGUAGE SETUP
-Let's say you want to change your current original language `English(`**en**`)` into `french(`**fr**`)`:
+Let's say you want to change your current original language from `English(`**en**`)` to `french(`**fr**`)`:
 
 #### Option #1 - `via terminal`
 ```bash
