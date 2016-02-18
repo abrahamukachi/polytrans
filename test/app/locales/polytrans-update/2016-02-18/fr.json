@@ -1,0 +1,25 @@
+
+{
+    
+  "about_us": {
+    "message": "À propos de nous"
+  },
+  "notifications": {
+    "message": "notifications"
+  },
+  "loading": {
+    "message": "S'il vous plaît, attendez..."
+  },
+  "ok": {
+    "message": "D'accord"
+  },
+  "contact_us": {
+    "message": "Contactez nous"
+  },
+  "services": {
+    "message": "Prestations de service"
+  },
+  "home": {
+    "message": "Accueil"
+  }
+}

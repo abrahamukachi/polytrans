@@ -1,0 +1,28 @@
+\n\e[0;1;96m┌───────────────────────────────┬───────────────────────────────┐
+\n\e[0;1;96m│\e[0m Afrikaans\t-\t\e[1maf\t\e[22m\e[0;1;96m│\e[0m Bahasa Indonesia\t[1mid\t\e[22m\e[0;1;96m│
+\n\e[0;1;96m│\e[0;46;1m Igbo\t\t-\t\e[1mig\t\e[22m\e[0;1;96m│\e[0m Русский\t-\t\e[1mru\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Azərbaycanca\t-\t\e[1maz\t\e[22m\e[0;1;96m│\e[0m Íslenska\t-\t\e[1mis\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Italiano\t-\t\e[1mit\t\e[22m\e[0;1;96m│\e[0m Slovenčina\t-\t\e[1msk\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m български\t-\t\e[1mbg\t\e[22m\e[0;1;96m│\e[0m 日本語\t-\t\e[1mja\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m 한국어\t-\t\e[1mko\t\e[22m\e[0;1;96m│\e[0m Română\t-\t\e[1mro\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Dansk\t\t-\t\e[1mda\t\e[22m\e[0;1;96m│\e[0m Latina\t-\t\e[1mla\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Deutsch\t-\t\e[1mde\t\e[22m\e[0;1;96m│\e[0m Kiswahili\t-\t\e[1msw\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m English\t-\t\e[1men\t\e[0m\e[0;1;96m│\e[0m Slovenščina\t-\t\e[1msl\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Español\t-\t\e[1mes\t\e[22m\e[0;1;96m│\e[0m Svenska\t-\t\e[1msv\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Esperanto\t-\t\e[1meo\t\e[22m\e[0;1;96m│\e[0m Malagasy\t-\t\e[1mmg\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Euskara\t-\t\e[1meu\t\e[22m\e[0;1;96m│\e[0m Türkçe\t-\t\e[1mtr\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Suomi\t\t-\t\e[1mfi\t\e[22m\e[0;1;96m│\e[0m मराठी\t\t-\t\e[1mmr\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Français\t-\t\e[1mfr\t\e[22m\e[0;1;96m│\e[0m Bahasa Melayu\t-\t\e[1mms\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Gaeilge\t-\t\e[1mga\t\e[22m\e[0;1;96m│\e[0m Malti\t\t-\t\e[1mmt\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Galego\t-\t\e[1mgl\t\e[22m\e[0;1;96m│\e[0m Hmoob Daw\t-\t\e[1mmww\t\e[22m\e[0;1;96m│\e[0m
+\n\e[0;1;96m│\e[0m Hausa\t\t-\t\e[1mha\t\e[22m\e[0;1;96m│\e[0m नेपाली\t\t-\t\e[1mne\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Nederlands\t-\t\e[1mnl\t\e[22m\e[0;1;96m│\e[0m Українська\t-\t\e[1muk\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m हिन्दी\t\t-\t\e[1mhi\t\e[22m\e[0;1;96m│\e[0m Norsk\t\t-\t\e[1mno\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Hmoob\t\t-\t\e[1mhmn\t\e[22m\e[0;1;96m│\e[0m Nyanja\t-\t\e[1mny\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Hrvatski\t-\t\e[1mhr\t\e[22m\e[0;1;96m│\e[0m Hñąñho\t-\t\e[1motq\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Kreyòl Ayisyen-\t\e[1mht\t\e[22m\e[0;1;96m│\e[0m ਪੰਜਾਬੀ\t\t-\t\e[1mpa\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Polski\t-\t\e[1mpl\t\e[22m\e[0;1;96m│\e[0m Zulu\t\t-\t\e[1mzu\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Yorùbá\t-\t\e[1myo\t\e[22m\e[0;1;96m│\e[0m 简体中文\t-\t\e[1mzh-CN\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m│\e[0m Հայերեն\t-\t\e[1mhy\t\e[22m\e[0;1;96m│\e[0m Português\t-\t\e[1mpt\e[22m\t\e[0;1;96m│
+\n\e[0;1;96m└───────────────────────────────┴───────────────────────────────┘
+\n

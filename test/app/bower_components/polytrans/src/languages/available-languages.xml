@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!--
+  NOTE: YOU ARE FREE TO EDIT THIS FILE
+  BY ADDING OR REMOVING AS MANY LANGUAGES AS YOU WANT
+
+  BUT YOU MUST KNOW WHAT YOU ARE DOING, ELSE EVERYTHING GOES `KABOOM`!!! :(
+  DO NOT FORGET TO UPDATE THE `.languages` file, if you edit this one.
+
+  IN FACT, UPDATE .languages file before updating this one(available-languages.xml)
+
+  * TOTAL LIST SHOULD NOT BE EMPTY
+  ie. languages.length must be > 0
+
+  Report bugs or issues on Github https://github.com/abilasco/polytrans/issues.
+-->
+
+<languages>
+  <af>Afrikaans</af>
+  <ig>Igbo</ig>
+  <az>Azərbaycanca</az>
+  <it>Italiano</it>
+  <bg>български</bg>
+  <ko>한국어</ko>
+  <da>Dansk</da>
+  <de>Deutsch</de>
+  <en>English</af>
+  <es>Español</es>
+  <eo>Esperanto</eo>
+  <id>Bahasa Indonesia</id>
+  <ru>Русский</ru>
+  <is>Íslenska</is>
+  <sk>Slovenčina</sk>
+  <sl>Slovenščina</sl>
+  <sv>Svenska</sv>
+  <ja>日本語</ja>
+  <la>Latina</la>
+  <mg>Malagasy</mg>
+  <eu>Euskara</eu>
+  <fi>Suomi</fi>
+  <fr>Français</fr>
+  <ga>Gaeilge</ga>
+  <gl>Galego</gl>
+  <fr>Français</fr>
+  <ha>Hausa</ha>
+  <nl>Nederlands</nl>
+  <hi>हिन्दी</hi>
+  <hmn>Hmoob</hmn>
+  <ro>Română</ro>
+  <hr>Hrvatski</hr>
+  <tr>Türkçe</tr>
+  <mr>मराठी</mr>
+  <ms>Bahasa Melayu</ms>
+  <mt>Malti</mt>
+  <mww>Hmoob Daw</mww>
+  <ne>नेपाली</ne>
+  <uk>Українська</uk>
+  <no>Norsk</no>
+  <ny>Nyanja</ny>
+  <otq>Hñąñho</otq>
+  <ht>Kreyòl Ayisyen</ht>
+  <pl>Polski</pl>
+  <yo>Yorùbá</yo>
+  <hy>Հայերեն</hy>
+  <pa>ਪੰਜਾਬੀ</pa>
+  <zu>Zulu</zu>
+  <zh-CN>简体中文</zh-CN>
+  <pt>Português</pt>
+</languages>

@@ -1,0 +1,159 @@
+.\" Man page for polytrans
+.\" Contact abrahamukachi@gmail.com to correct errors or typos
+.TH POLYTRANS "0.0.3" "14 February 2016" "1" "User Commands"
+.hy
+.SH NAME
+.PP
+polytrans \- A simple Polymer-Starter-Kit translator using Google Translate
+.SH SYNOPSIS
+.PP
+ \f[B]./polytrans.sh
+ \f[B]./polytrans.sh en=[\f[I]LANGUAGE\f[]]
+ \f[B]./polytrans.sh en \f[I]DESTINATION\f[]
+ \f[B]./polytrans.sh [\f[I]OPTION\f[]] [\f[I]LANGUAGE\f[]]
+.SH DESCRIPTION
+.PP
+This tool translates your PSK(\f[B]Polymer\-Starter\-Kit\f[]) App into \f[B]50 different languages\f[], using a translation engine such as Google Translate and depends on \f[B]Translate Shell\f[](formerly Google Translate CLI). It is based on the amazing \f[B]<i18n-msg>\f[] polymer element created by Eric Bidelman (https://github.com/ebidel), for translation purposes.
+.PP
+I highly recommend checking out this element(\f[B]<i18n-msg>\f[]) on Ebidel's Github Page (https://ebidel.github.io/i18n-msg/components/i18n-msg/), if you still have troubles translating your App or using polytrans.
+.PP
+\f[B]polytrans\f[] requires at least one file in your \f[B]app/locales\f[] directory. For example,
+.B app/locales/[\f[I]<file-name>\f[]].json.
+By default, polytrans' original language is set to 'en' (English)
+If your App's original or main language is in a different language other than English, say Spanish ('es'),
+just use the \f[B]--set-orig-lang\f[] option, to update it.
+.SH ORIGINAL LANGUAGE SETUP
+Let's say you want to change your current original language(\f[B]en\f[]) into french(\f[B]fr\f[]):
+.TP
+\f[B]Option #1 \-\f[] via terminal
+.PP
+.RS
+.TP
+\f[B]./polytrans.sh --set-orig-lang fr\f[]=[\f[I]LANGUAGE\f[]]
+.RE
+.TP
+\f[B]Option #2 \-\f[] via an editor
+1 \- Go to polytrans home directory located in you PSK App
+.RS
+.RS
+.TP
+.B cd app/bower_components/polytrans
+.PP
+.RE
+.TP
+2 \- Open the .config.xml file using your prefered editor. I recommend \f[B]nano\f[].
+.PP
+.RS
+.TP
+.B nano .config.xml
+.PP
+Your modified .config.xml file should look like this:
+.PP
+.B -------------------------------
+.PP
+  \f[B]:\f[] <?xml version="1.0" encoding="iso-8859-1"?>
+  \f[B]:\f[]
+  \f[B]:\f[] <polytrans-config>
+  \f[B]:\f[]      <version>0.0.3</version>
+  \f[B]:-->\f[]   <original-language>\f[B]fr\f[]</original-language>
+  \f[B]:\f[] </polytrans-config>
+.PP
+.B -------------------------------
+.PP
+.RE
+.TP
+\f[B]* \f[]Save the file (or \f[B]Ctrl-S\f[]) and Voila! \f[B]:)\f[]
+.PP
+.SH EXAMPLES
+.SS Translating PSK App
+.SS \f[B] \f[]
+.B \[bu] ./polytrans.sh \f[I](Y/n)\f[]
+.PP
+.RS
+.TP
+Translates your PSK App into at least 50 languages and opens a file manager(nautilus) containing all translated files, when done. (default:yes)
+.RE
+.TP
+.B \[bu] ./polytrans.sh es=[\f[I]LANGUAGE\f[]]
+.RS
+.TP
+Translates App from your original language into \f[I]Spanish\f[](\f[B]es\f[])
+.RE
+.TP
+.B \[bu] ./polytrans.sh {es:fr:it}=[\f[I]LANGUAGES\f[]]
+.PP
+.RS
+.TP
+Translate App into spanish(\f[B]es\f[]), french(\f[B]fr\f[]) and italian(\f[B]it\f[])
+.SS Bower Install
+.SS \f[B] \f[]
+.B \[bu] bower install --save Abilasco/polytrans
+.PP
+.RS
+.TP
+Saves polytrans files in \f[B]bower_components\f[] folder of your PSK App.
+.PP
+.RE
+.B \[bu] cd app/bower_components/polytrans\f[]
+.PP
+.RS
+.TP
+Sends you to polytrans main(home) directory
+.PP
+.RE
+.B \[bu] chmod +x polytrans.sh\f[]
+.RS
+.TP
+Makes polytrans an executable program
+.SH DESTINATION
+Translated files are saved in your
+.B app/locales/polytrans-updates/[\f[I]<current-date>\f[]]
+directory, by default. This folder will be created automatically, if it doesn't exist. To save the current translated files in different directory, run:
+.RS
+.TP
+ ./polytrans.sh  [\f[I]LANGUAGE\f[]]...  /home/name/Desktop=[\f[I]DESTINATION\f[]]
+.SH DEPENDENCIES
+.PP
+.B Translate Shell \-
+Translate Shell (formerly Google Translate CLI) is a command-line translator powered by Google Translate (default), Bing Translator, and Yandex.Translate. It gives you easy access to one of these translation engines your terminal \- Github link https://github.com/soimort/translate-shell
+.SH OPTIONS
+.B --set-orig-lang
+Set a new original language and exit.
+.RS
+.RE
+.TP
+.B --show-cur-orig-lang
+Print the current original language and exit.
+.RS
+.RE
+.TP
+\f[B]-v\f[], \f[B]\-V\f[], \f[B]--version\f[]
+Print version and exit.
+.RS
+.RE
+.TP
+\f[B]-h\f[], \f[B]\-H\f[], \f[B]--help\f[]
+Print help message and exit.
+.RS
+.RE
+.TP
+\f[B]-m\f[], \f[B]\-M\f[], \f[B]--man\f[]
+Show man page and exit.
+.RS
+.RE
+.TP
+\f[B]-l\f[], \f[B]\-L\f[], \f[B]--languages\f[]
+Print all supported 50 languages and codes, in a reference table and exit.
+Names of languages are displayed in their endonyms (language name in the
+language itself) and the current selected original language is highlighted.
+.SH COPYRIGHT
+Copyright © 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>. This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law.
+.SH SEE ALSO
+.TP
+polymig (1)
+.SH REPORTING BUGS
+<https://github.com/abilasco/polytrans/issues>
+.SH AUTHOR
+Written by
+.B Ukachi Abraham
+.I <abrahamukachi@gmail.com>

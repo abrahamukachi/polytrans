@@ -1,0 +1,29 @@
+\n\e[1;96m┌─────────────────────────────────┐
+\n\e[1;96m│\e[0m  \e[1mPolytrans  \e[92mv0.0.3\e[0m\t\t \e[1;96m ││┐
+\n\e[1;96m│\t\t\t\t\e[1;96m \e[8m│\e[0;96m│                                     │
+\n\e[1;96m│\e[0;97m @author:  \e[0mUkachi Abraham\t \e[1;96m ││┘
+\n\e[1;96m│\e[0;97m @email: \e[0mabrahamukachi@gmail.com \e[1;96m│
+\n\e[1;96m└─────────────────────────────────┘
+\n\e[0m
+\n
+\n\e[1mUsage:
+\n\t./polytrans.sh
+\n\t./polytrans.sh en\e[0;4m=[LANGUAGE]\e[0m
+\n\e[1m\t./polytrans.sh en \e[0;4mDESTINATION\e[0m
+\n\e[1m\t./polytrans.sh \e[0;4m[OPTION]\e[0m \e[4m[LANGUAGE]\e[0m
+\n
+\n
+\n\e[1m\t./polytrans.sh\e[0m\t\tTranslates your PSK App into \e[4m50 languages\e[0m and opens a file manager(nautilus) containing all translated files, when done.
+\n
+\n\e[1m\t./polytrans.sh {en:fr}\e[0m=\e[4m[LANGUAGES...]\e[0m
+\n\t\t\t\tTranslates to multiple(English[en] and French[fr]) languages
+\n
+\n\e[1m\t--set-orig-lang\e[0m\t\tSets a new original language
+\n\e[1m\t--show-cur-orig-lang\e[0m\tShow the current original language
+\n\e[1m\t-?, h, H, --help\e[0m\tPrint help message and exit
+\n\e[1m\t-v, -V, --version\e[0m\tPrint program version
+\n\e[1m\t-m, -M, --man\e[0m\t\tShow man page and exit
+\n\e[1m\t-l, -L, --languages\e[0m\tPrint all available \e[4m50 languages\e[0m and codes, in a reference table and exit. Names of languages are displayed in their endonyms (language name in the language itself).
+\n
+\n\e[0mReport bugs or issues on my \e[1mGithub\e[22m \e[1;92mhttps://github.com/abilasco/polytrans/issues\e[0m
+\n

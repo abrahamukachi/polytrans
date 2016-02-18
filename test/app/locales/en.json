@@ -1,0 +1,23 @@
+{
+  "loading": {
+    "message": "Please wait..."
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "home": {
+    "message": "Home"
+  },
+  "about_us": {
+    "message": "About us"
+  },
+  "services": {
+    "message": "Services"
+  },
+  "contact_us": {
+    "message": "Contact us"
+  },
+  "notifications": {
+    "message": "Notifications"
+  }
+}
