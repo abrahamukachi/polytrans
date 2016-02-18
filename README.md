@@ -1,6 +1,5 @@
 # polytrans
 ## A simple Polymer-Starter-Kit translator using Google Translate
-- `version` **0.0.3**
 This tool translates your PSK(**Polymer-Starter-Kit**) App into **50 different languages**, using a translation engine such as Google Translate and depends on **Translate Shell**(formerly Google Translate CLI). It is based on the amazing **<i18n-msg>** polymer element created by [Eric Bidelman](https://github.com/ebidel), for translation purposes.
 
 I highly recommend checking out this element(**<i18n-msg>**) on [Ebidel's Github Page](https://ebidel.github.io/i18n-msg/components/i18n-msg/), if you still have troubles translating your App or using polytrans.
