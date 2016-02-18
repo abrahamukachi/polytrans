@@ -4,7 +4,7 @@ This tool translates your PSK(**Polymer-Starter-Kit**) App into **50 different l
 
 I highly recommend checking out this element(**<i18n-msg>**) on [Ebidel's Github Page](https://ebidel.github.io/i18n-msg/components/i18n-msg/), if you still have troubles translating your App or using polytrans.
 
-**polytrans** requires at least one file in your **app/locales** directory. For example, app/locales/[*<file-name>*].json. By default, polytrans' original language is set to '`en`' (English)
+:warning: **Important**: **polytrans** requires at least one file in your **app/locales** directory. For example, **app/locales/en.json** (for English). By default, polytrans' original language is set to '`en`' (English)
 If your App's original or main language is in a different language other than English, say Spanish ('`es`'),
 just use the **--set-orig-lang** option, to update it.
 
