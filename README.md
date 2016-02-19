@@ -1,8 +1,8 @@
 # polytrans
 ## A simple Polymer-Starter-Kit translator using Google Translate
-This tool translates your PSK(**Polymer-Starter-Kit**) App into **50 different languages**, using a translation engine such as Google Translate and depends on **Translate Shell**(formerly Google Translate CLI). It is based on the amazing **<i18n-msg>** polymer element created by [Eric Bidelman](https://github.com/ebidel), for translation purposes.
+This tool translates your PSK(**Polymer-Starter-Kit**) App into **50 different languages**, using a translation engine such as Google Translate and depends on **Translate Shell**(formerly Google Translate CLI). It is based on the amazing <i18n-msg> polymer element created by [Eric Bidelman](https://github.com/ebidel), for translation purposes.
 
-I highly recommend checking out this element(**<i18n-msg>**) on [Ebidel's Github Page](https://ebidel.github.io/i18n-msg/components/i18n-msg/), if you still have troubles translating your App or using polytrans.
+I highly recommend checking out this element(<i18n-msg>) on [Ebidel's Github Page](https://ebidel.github.io/i18n-msg/components/i18n-msg/), if you still have troubles translating your App or using polytrans.
 
 :warning: **Important**: **polytrans** requires at least one file in your **app/locales** directory. For example, **app/locales/en.json** (for English). By default, polytrans' original language is set to '`en`' (English)
 If your App's original or main language is in a different language other than English, say Spanish ('`es`'),
